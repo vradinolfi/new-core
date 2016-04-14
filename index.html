@@ -44,6 +44,7 @@ var ExecuteOrDelayUntilScriptLoaded = function(){};
 <!-- New Core Javascript -->
     
     <script src="http://dimsemenov.com/plugins/royal-slider/royalslider/jquery.royalslider.min.js?v=9.3.6"></script>
+    <script src="js/new-core.js"></script>
     
 <!-- End New Core Javascript -->
     
@@ -663,7 +664,7 @@ var ExecuteOrDelayUntilScriptLoaded = function(){};
             </div>    
                 
             <div class="container-1920 no-padding">
-                
+                <!--
               <div class="size1of1 golden-margin-bottom">
               	<div class="video-header">
                     <video autoplay width="100%" height="auto" poster="http://depaulweb.com/mduddles/core-admission-v2/Images/admissions.png" loop>
@@ -676,6 +677,24 @@ var ExecuteOrDelayUntilScriptLoaded = function(){};
                         </div>
                   </div>
               </div>
+                -->
+                
+                <div class="size1of1 golden-margin-bottom">
+                <div class="video-header">
+                
+                    <div class="video" data-src="http://depaulweb.com/mduddles/core-admission-v2/Images/admissions.png" data-video="http://depaulweb.com/hlewis4/images/Academics-test-video.mp4" data-placeholder="http://depaulweb.com/mduddles/core-admission-v2/Images/admissions.png">
+                    
+                    <div class="video-overlay">
+                        <h1>Lorem Ipsum</h1>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut pulvinar ante. Suspendisse posuere lacus lectus, at fermentum enim euismod vitae. Nulla vitae risus nec sapien pellentesque commodo. Aliquam lorem dolor, cursus eget iaculis vitae, consectetur quis leo.</h3>
+                    </div>
+                    
+                    </div>
+                    
+                    
+                    
+                </div>
+                </div>
                 
             </div>
                 
@@ -1003,6 +1022,42 @@ var ExecuteOrDelayUntilScriptLoaded = function(){};
                 
                 
                 
+                            
+                            
+                            
+            <!-- \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->    
+            <!-- -------------------------- Outcomes Panel ---------------------------- -->   
+            <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->
+                
+                
+            <div class="container-1080">
+                <h2 class="demo-page">Outcomes Panel</h2>    
+            </div>
+                
+            <div class="container-1080">
+                
+                <div class="outcomes-panel">
+                
+                    <div class="unit size1of4 outcomes-panel-circle">
+                        <h1>76%</h1>
+                    </div>
+                    
+                    <div class="unit size3of4 outcomes-panel-content">
+                        <p>76% of 2014 Computer Game Development graduates were employed, continuing their education or not seeking after graduation.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="clear"></div>
+                
+            </div>
+                
+            
+            <!-- \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->    
+            <!-- -------------------------- Outcomes Panel ---------------------------- -->   
+            <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->
+                            
+                            
                 
                 
                 
@@ -1607,89 +1662,7 @@ var ExecuteOrDelayUntilScriptLoaded = function(){};
        </div>
    </div>    
 </div>
-<footer>    
-    
-    <script>
-        
-        /* Panel Triangle Auto Height & Color */
-        
-        $(document).ready(function(){
-            
-            $(".panel-triangle").each(function(){
-                
-                var parentHeight = $(this).parent().height();
-                var triangleColorLeft = $(this).parent().next(".panel-content-wrapper").css("background-color");
-                var triangleColorRight = $(this).parent().prev(".panel-content-wrapper").css("background-color");
-                
-                if ($(this).parent(".panel-image--left")){
-                    
-                    $(this).css({
-                        "border-bottom-width": parentHeight,
-                        "border-bottom-color": triangleColorLeft
-                    });
-                    
-                }
-                
-                if ($(this).parent(".panel-image--right")){
-                    
-                    $(this).css({
-                        "border-bottom-width": parentHeight,
-                        "border-bottom-color": triangleColorRight
-                    });
-                    
-                }
-                
-            });
-               
-        });
-        
-        $(window).on('resize', function(){
-            $(".panel-triangle").each(function(){
-                
-                var parentHeight = $(this).parent().height();
-                
-                $(this).css({
-                    "border-bottom-width": parentHeight
-                });
-                
-            });
-        });
-        
-        /* Panel Triangle Auto Height & Color */
-        
-        
-        
-        /* Swap Elements */
-        
-        $(document).ready(function(){
-            var windowWidth = $(window).width();
-            if(windowWidth < 790){
-                $(".swap > .swap2").insertBefore(".swap > .swap1");
-            }
-            if(windowWidth > 790){
-                $(".swap > .swap1").insertBefore(".swap > .swap2");
-            }
-        });
-        
-        $(window).on('resize', function(){
-            var windowWidth = $(window).width();
-            if(windowWidth < 790){
-                $(".swap > .swap2").insertBefore(".swap > .swap1");
-            }
-            if(windowWidth > 790){
-                $(".swap > .swap1").insertBefore(".swap > .swap2");
-            }
-        });
-        
-        /*
-        function em(input) {
-            var emSize = parseFloat($("html").css("font-size"));
-            return (emSize * input);
-        }*/
-    
-        /* Swap Elements */
-        
-    </script>
+<footer> 
     
 <script type="text/javascript">
     $('body').removeClass('no-js').addClass('js');
