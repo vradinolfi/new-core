@@ -800,7 +800,7 @@ ul, ol {
 
     @media (max-width: 50em) {
         .half-panel > div {
-            margin: 0 0 30px 0;
+            margin: 0 0 30px 0!important;
         }
     }
 }
@@ -978,21 +978,58 @@ ul, ol {
 
 .outcomes-panel {
     
-    .outcomes-panel-circle {
-        border-radius: 100%;
-        background: $bg-teal;
-        text-align: center;
-        height: 300px;
+    display: table-row;
+    
+    @media (max-width: 50em) {
+        display: block;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+    .outcomes-panel-circle-container {
+        float: none;
+        display: table-cell;
         
-        h1 {
-            font-family: $roboto!important;
-            color: white;
-            font-style: italic;
+        @media (min-width: 50em) {
+            background: linear-gradient(90deg, transparent 50%, $teal--light 50%);
+        }
+        
+        @media (max-width: 50em) {
+            float: left;
+            background: linear-gradient(transparent 50%, $teal--light 50%);
+            display: block;
+        }
+        
+        .outcomes-panel-circle {
+            border-radius: 100%;
+            text-align: center;
+            
+            h1 {
+                font-family: $roboto!important;
+                color: white;
+                font-style: italic;
+                margin: 0;
+                font-weight: normal;
+                font-size: 4rem;
+                
+                @media (max-width: 50em) {
+                    font-size: 6rem;
+                }
+            }
         }
     }
     
     .outcomes-panel-content {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 15px 30px!important;
         
+        @media (max-width: 50em) {
+            float: left;
+            display: block;
+            padding: 30px!important;
+        }
     }
 
 }
@@ -1319,6 +1356,7 @@ p.skin-social {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
@@ -1360,6 +1398,10 @@ p.skin-social {
 
 .bold {
     font-weight: bold;
+}
+
+.normal-weight {
+    font-weight: normal;
 }
 
 .thin {
@@ -1420,8 +1462,16 @@ p.skin-social {
     background: $bg-gray--dark;
 }
 
+.bg-teal--light {
+    background: $teal--light;
+}
+
 .bg-teal {
     background: $bg-teal;
+}
+
+.bg-teal--med {
+    background: $teal--med;
 }
 
 .bg-yellow {

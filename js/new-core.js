@@ -1,3 +1,18 @@
+/* Circle Object */
+
+function makeCircle() {
+    var circleHeight = $(".outcomes-panel-circle").width();
+    
+    $(".outcomes-panel-circle").css({
+        "height": circleHeight
+    });
+}
+
+$(document).ready(makeCircle);
+$(window).resize(makeCircle);
+
+/* Circle Object */
+
 /* Video Header */
 $(document).ready(function(){
 function isIE() {
@@ -76,25 +91,27 @@ $(window).on('resize', function(){
 
 /* Swap Elements */
 
-$(document).ready(function(){
-    var windowWidth = $(window).width();
-    if(windowWidth < 790){
-        $(".swap > .swap2").insertBefore(".swap > .swap1");
-    }
-    if(windowWidth > 790){
-        $(".swap > .swap1").insertBefore(".swap > .swap2");
-    }
-});
+function swapNeighbors() {
+    
+    $(".swap").each(function() {
+        
+        var windowWidth = $(window).width();
+            var item1 = $(this).children(".swap1");
+            var item2 = $(this).children(".swap2");
+        
+        
+        if(windowWidth < 790){
+            $(item2).insertBefore(item1);
+        }
+        if(windowWidth > 790){
+            $(item1).insertBefore(item2);
+        }
+    });
+    
+}
 
-$(window).on('resize', function(){
-    var windowWidth = $(window).width();
-    if(windowWidth < 790){
-        $(".swap > .swap2").insertBefore(".swap > .swap1");
-    }
-    if(windowWidth > 790){
-        $(".swap > .swap1").insertBefore(".swap > .swap2");
-    }
-});
+$(document).ready(swapNeighbors);
+$(window).resize(swapNeighbors);
 
 /*
 function em(input) {
@@ -103,3 +120,48 @@ function em(input) {
 }*/
 
 /* Swap Elements */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
