@@ -68,6 +68,13 @@ $(document).ready(function(){
             });
 
         }
+        
+        if ($(this).parent(".split-panel-large .panel-image--left")){
+            $(this).css({
+                "border-top-width": parentHeight,
+                "border-top-color": triangleColorRight
+            })
+        }
 
     });
 
@@ -79,7 +86,8 @@ $(window).on('resize', function(){
         var parentHeight = $(this).parent().height();
 
         $(this).css({
-            "border-bottom-width": parentHeight
+            "border-bottom-width": parentHeight,
+            "border-top-width": parentHeight
         });
 
     });
