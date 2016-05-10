@@ -1131,6 +1131,7 @@ ul, ol {
         display: table-cell;
         vertical-align: middle;
         padding: 15px 30px!important;
+        font-size: .9em;
         
         @media (max-width: 50em) {
             float: left;
@@ -1269,14 +1270,30 @@ ul, ol {
 
 .ul-new {
 
-    padding-left: 30px;
-
     li {
-
+        list-style: none;
+        position: relative;
+        
+        /*
         padding: 3px 0px 0px 30px;
         list-style: none;
         @extend %bullet-image;
-
+        */
+    }
+    
+    li::before {
+        position: absolute;
+        display: block;
+        content: '\2022';
+        text-indent: -9999px;
+        top: .1em;
+        left: -1em;
+        width: 1em;
+        height: 1em;
+        background-repeat: no-repeat;
+        background-image: url(../../img/bullet.png);
+        background-size: .7em;
+        background-position: 0 .2em;
     }
 
 }

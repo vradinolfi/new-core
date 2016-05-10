@@ -89,10 +89,6 @@
 /* Fonts */
 /* Images */
 /* Base64 Encoded Images + Extensions */
-/* line 170, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
-.ul-new li {
-  background: url("data:image/png;base64,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/GMzLdsAADo2aVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzA2NyA3OS4xNTc3NDcsIDIwMTUvMDMvMzAtMjM6NDA6NDIgICAgICAgICI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgICAgICAgICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgICAgIDx4bXA6Q3JlYXRlRGF0ZT4yMDE2LTAxLTI3VDE0OjU4OjQ0LTA2OjAwPC94bXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhtcDpNZXRhZGF0YURhdGU+MjAxNi0wMS0yN1QxNDo1ODo0NC0wNjowMDwveG1wOk1ldGFkYXRhRGF0ZT4KICAgICAgICAgPHhtcDpNb2RpZnlEYXRlPjIwMTYtMDEtMjdUMTQ6NTg6NDQtMDY6MDA8L3htcDpNb2RpZnlEYXRlPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54bXAuaWlkOjYwYTY2YmIyLWRiOGQtNGJiZi1hNTcxLTFkMzI0MzRhY2Q3ODwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOkRvY3VtZW50SUQ+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjFmM2ZmNjNiLTA1YzctMTE3OS1hNWMwLTg1N2RkNzM0ZGU0MjwveG1wTU06RG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD54bXAuZGlkOjA5NWRlZmZkLWM5MTgtNGI3Yi1hZTI3LThjNmQxMzJkMmI0NDwveG1wTU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06SGlzdG9yeT4KICAgICAgICAgICAgPHJkZjpTZXE+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNyZWF0ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDowOTVkZWZmZC1jOTE4LTRiN2ItYWUyNy04YzZkMTMyZDJiNDQ8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTYtMDEtMjdUMTQ6NTg6NDQtMDY6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDo2MGE2NmJiMi1kYjhkLTRiYmYtYTU3MS0xZDMyNDM0YWNkNzg8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTYtMDEtMjdUMTQ6NTg6NDQtMDY6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICAgICA8c3RFdnQ6Y2hhbmdlZD4vPC9zdEV2dDpjaGFuZ2VkPgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAgICAgICAgICAgPC9yZGY6U2VxPgogICAgICAgICA8L3htcE1NOkhpc3Rvcnk+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDxwaG90b3Nob3A6Q29sb3JNb2RlPjM8L3Bob3Rvc2hvcDpDb2xvck1vZGU+CiAgICAgICAgIDxwaG90b3Nob3A6SUNDUHJvZmlsZT5zUkdCIElFQzYxOTY2LTIuMTwvcGhvdG9zaG9wOklDQ1Byb2ZpbGU+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpYUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WVJlc29sdXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOllSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8ZXhpZjpDb2xvclNwYWNlPjE8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjE4PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjE4PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz512A5GAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAUySURBVHgBACIF3foBGVmYAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAAVwAAAEIAAAAeAAAAAAAAAOIAAAC+AAAAqgAAAL0AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACgAAACXAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAJAAAAGYAAADAAAAAaQAAANgAAAAAAAAAAAIAAAAAAAAAAAAAAD8AAADKAAAAQAAAAOwAAAB6AAAALgAAAAgAAAAIAAAALgAAAHoAAADsAAAAQAAAAMoAAAA/AAAAAAAAAAABGVmYAAAAACgAAADIAAAADwAAAK4AAABiAAAA8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAJ0AAABTAAAA8QAAADgAAADYAgAAAAEAAACfAAAADwAAAK8AAABUAAAA8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPEAAABVAAAArgAAAA8AAACfAAAAAQIAAABDAAAAOAAAAOwAAABgAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAGEAAADrAAAAOAAAAEMCAAAAVgAAAAAAAACTAAAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAjwAAAAAAAABWAgAAAEIAAAAAAAAAsQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALQAAAAAAAAAQgIAAAAdAAAAAAAAANgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADZAAAAAAAAAB0CAAAA+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAgAAAOYAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAA5AIAAADKAAAAAAAAAE8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLAAAAAAAAAMUCAAAApQAAAAAAAABsAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAcQAAAAAAAACkAgAAALoAAADIAAAAFQAAAJ8AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAnwAAABUAAADIAAAAuwIAAAD/AAAAYQAAAPEAAABSAAAArAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAqwAAAFIAAADxAAAAYgAAAP8CAAAAAAAAANgAAABPAAAA8wAAAFIAAADcAAAAeQAAACwAAAAFAAAABgAAACwAAAB5AAAA3AAAAFMAAADzAAAATwAAANcAAAAAARlZmAAAAAAAAAAAAAAAACgAAACfAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAYQAAANgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAADYAAAAOgAAAEUAAABUAAAAQwAAAB0AAAD6AAAA4wAAAMMAAACsAAAAuwAAAP8AAAAAAAAAAAAAAAABAAD//3CXTbMONXB3AAAAAElFTkSuQmCC") no-repeat left center; }
-
 /*****************************************************************/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\ TOOLS /\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
@@ -909,7 +905,8 @@ ul, ol {
     float: none;
     display: table-cell;
     vertical-align: middle;
-    padding: 15px 30px !important; }
+    padding: 15px 30px !important;
+    font-size: .9em; }
     @media (max-width: 50em) {
       /* line 1129, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
       .outcomes-panel .outcomes-panel-content {
@@ -918,102 +915,119 @@ ul, ol {
         padding: 30px !important; } }
 
 /* Image Stats Overlay */
-/* line 1146, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1147, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .image-stats-wrapper {
   padding: 45px !important; }
-  /* line 1150, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1151, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .image-stats-wrapper .image-stats-overlay {
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
     max-width: 500px;
     padding: 0 0 30px 0; }
     @media (max-width: 50em) {
-      /* line 1150, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      /* line 1151, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
       .image-stats-wrapper .image-stats-overlay {
         padding: 30px 0; } }
-    /* line 1165, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1166, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .image-stats-wrapper .image-stats-overlay .unit hr {
       margin: 15px 15px 15px 30px !important; }
-    /* line 1169, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1170, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .image-stats-wrapper .image-stats-overlay .unit h5 {
       margin-right: 15px !important; }
-    /* line 1173, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1174, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .image-stats-wrapper .image-stats-overlay .unit p {
       margin-left: 15px !important; }
     @media (max-width: 50em) {
-      /* line 1162, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      /* line 1163, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
       .image-stats-wrapper .image-stats-overlay .unit {
         text-align: center !important; }
-        /* line 1180, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+        /* line 1181, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
         .image-stats-wrapper .image-stats-overlay .unit h5, .image-stats-wrapper .image-stats-overlay .unit p {
           margin: 0 !important; }
-        /* line 1184, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+        /* line 1185, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
         .image-stats-wrapper .image-stats-overlay .unit hr {
           margin: 15px 30px !important; } }
 
 /* SVGs & Triangle Parts */
 @media (max-width: 50em) {
-  /* line 1195, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1196, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .svg-triangle {
     display: none; } }
 
 /* Footer */
-/* line 1202, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1203, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .footer {
   background: #1c252f !important;
   text-align: center;
   color: lightgray !important; }
-  /* line 1208, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1209, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer h2 {
     color: #6fb0f3; }
-  /* line 1212, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1213, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer a {
     text-decoration: none !important;
     color: #6fb0f3 !important; }
-  /* line 1217, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1218, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer a:hover {
     text-decoration: underline !important; }
-  /* line 1221, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1222, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer p {
     color: #bec4cb; }
   @media (max-width: 50em) {
-    /* line 1226, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1227, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .footer .size1of3 p {
       margin: 0; } }
 
-/* line 1235, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1236, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .copyright {
   background: #1c252f;
   border-top: #383e46 1px solid;
   color: lightgray; }
-  /* line 1241, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1242, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .copyright a {
     text-decoration: underline !important;
     color: #6fb0f3; }
 
-/* line 1250, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1251, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .skin-social a {
   margin-left: 4px !important;
   margin-right: 4px !important; }
-  /* line 1254, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1255, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .skin-social a.fb {
     background: url(../../img/icons/footer-FB.png); }
-  /* line 1258, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1259, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .skin-social a.twitter {
     background: url(../../img/icons/footer-twitter.png); }
-  /* line 1262, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1263, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .skin-social a.instagram {
     background: url(../../img/icons/footer-instagram.png); }
 
-/* line 1270, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
-.ul-new {
-  padding-left: 30px; }
-  /* line 1274, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
-  .ul-new li {
-    padding: 3px 0px 0px 30px;
-    list-style: none; }
+/* line 1273, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.ul-new li {
+  list-style: none;
+  position: relative;
+  /*
+        padding: 3px 0px 0px 30px;
+        list-style: none;
+        @extend %bullet-image;
+        */ }
 
-/* line 1285, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1284, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.ul-new li::before {
+  position: absolute;
+  display: block;
+  content: '\2022';
+  text-indent: -9999px;
+  top: .1em;
+  left: -1em;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-image: url(../../img/bullet.png);
+  background-size: .7em;
+  background-position: 0 0.2em; }
+
+/* line 1302, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ul-circles li {
   list-style: circle; }
 
@@ -1023,14 +1037,14 @@ ul, ol {
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
 /* Stats & Infographics */
-/* line 1299, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1316, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .stat-number {
   font-family: "Roboto Slab", Georgia, serif;
   font-style: italic;
   font-weight: 400;
   margin: 0; }
 
-/* line 1306, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1323, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .pipes {
   border-top: 1px solid #dfe9f3;
   border-bottom: 1px solid #dfe9f3;
@@ -1041,84 +1055,84 @@ ul, ol {
 /*\/\/\/\/\/\/\/\/\/\/\/\/\/\/ THEME /\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1318, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1335, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-ghost-blue {
   border-color: #235b94;
   color: #235b94 !important; }
-  /* line 1322, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1339, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-ghost-blue:hover {
     background-color: #235b94;
     color: white !important;
     text-decoration: none; }
 
-/* line 1329, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1346, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-ghost-teal {
   border-color: #41b4ad;
   color: white !important; }
-  /* line 1333, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1350, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-ghost-teal:hover {
     background-color: #41b4ad;
     color: white !important;
     text-decoration: none; }
 
-/* line 1340, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1357, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-ghost-teal-2 {
   border-color: #41b4ad;
   color: #41b4ad !important; }
-  /* line 1344, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1361, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-ghost-teal-2:hover {
     background-color: #41b4ad;
     color: white !important;
     text-decoration: none; }
 
-/* line 1351, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1368, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-dark-teal {
   border-color: #41b4ad;
   color: white !important;
   background: #383e46; }
-  /* line 1356, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1373, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-dark-teal:hover {
     background-color: #41b4ad;
     text-decoration: none; }
 
 /* Masthead */
-/* line 1364, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1381, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .masthead {
   background: #e4ebf8; }
 
-/* line 1368, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1385, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .logo-short {
   background: url(../../img/dpu-logo-short.png) no-repeat;
   width: 182px;
   height: 43px;
   border-right: 2px #20456c solid !important; }
 
-/* line 1375, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1392, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-logo .h1 {
   font-size: 26px; }
 
-/* line 1379, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1396, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts {
   font-family: "Source Sans Pro",sans-serif;
   background: #225b94;
   color: #fff; }
 
-/* line 1385, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1402, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts-drawer {
   font-family: "Source Sans Pro",sans-serif;
   background: #093D71;
   color: #fff !important; }
 
-/* line 1391, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1408, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts-drawer a {
   color: #fff !important; }
 
-/* line 1395, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1412, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts-drawer a:hover {
   background: #344e59; }
 
 /* Navigation */
-/* line 1401, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1418, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary {
   font-family: "proxima-nova-condensed";
   font-weight: normal;
@@ -1128,34 +1142,34 @@ ul, ol {
   background: #1d4267;
   z-index: 9999; }
 
-/* line 1411, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1428, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary li {
   border-right: none !important; }
 
-/* line 1415, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1432, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary li a {
   color: white; }
 
-/* line 1419, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1436, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary li a:hover {
   background: #1c252f; }
 
-/* line 1423, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1440, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary .level-2 {
   background: #1d4267; }
 
 /* Secondary Nav */
-/* line 1429, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1446, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 #ga-secondary {
   padding-right: 30px; }
 
-/* line 1433, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1450, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 #ga-secondary h4 a {
   border-bottom: 3px solid #383e46;
   color: #1c252f;
   font-size: 0.9em; }
 
-/* line 1439, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1456, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary li a {
   background: white !important;
   font-family: "proxima-nova-condensed", Arial, sans-serif;
@@ -1166,42 +1180,42 @@ ul, ol {
   font-weight: bold;
   font-size: 0.9em; }
 
-/* line 1450, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1467, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .active > a {
   background: #235b94 !important;
   color: white !important; }
 
-/* line 1455, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1472, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary li a:hover {
   background: #dfe9f3 !important;
   color: #565656 !important; }
 
-/* line 1460, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1477, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary ul.level-2 {
   background: white !important; }
 
-/* line 1464, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1481, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .child-sub li, .nav-secondary ul.level-2 li:last-child a {
   margin: 0 !important; }
 
-/* line 1468, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1485, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary ul {
   padding: 0; }
 
-/* line 1472, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1489, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .level-2 li > a, .nav-secondary .level-2 .active > a {
   padding-left: 1.5em !important;
   text-transform: inherit !important;
   margin: 0; }
 
-/* line 1478, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1495, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .level-3 li a, .nav-secondary .level-3 .active a, .nav-secondary .level-3 .child-sub a, .nav-secondary .level-3 .child-page a, .nav-secondary .level-3 .nav-manual a {
   padding-left: 2em !important;
   text-transform: inherit !important;
   margin: 0; }
 
 @media only screen and (max-width: 1366px) {
-  /* line 1485, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1502, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .nav-primary li > ul {
     top: 30px !important; } }
 
@@ -1210,7 +1224,7 @@ ul, ol {
 /*\/\/\/\/\/\/\/\/\/\/\/\/\/ OVERRIDES /\/\/\/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1496, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1513, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .vertical-center {
   position: relative;
   top: 50%;
@@ -1218,144 +1232,144 @@ ul, ol {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-/* line 1504, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1521, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .no-border {
   border: none !important; }
 
-/* line 1508, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1525, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .no-padding {
   padding: 0 !important; }
 
-/* line 1512, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1529, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .content-body .unit {
   padding: 0 15px; }
 
-/* line 1516, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1533, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ls3 {
   letter-spacing: 3px; }
 
-/* line 1520, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1537, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .lh0 {
   line-height: 0; }
 
-/* line 1524, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1541, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .vertical-align--middle {
   vertical-align: middle; }
 
 /* Font Stacks */
-/* line 1530, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1547, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-proxima {
   font-family: "proxima-nova-condensed", Arial, sans-serif !important; }
 
-/* line 1534, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1551, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-roboto {
   font-family: "Roboto Slab", Georgia, serif !important; }
 
-/* line 1538, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1555, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-source-sans {
   font-family: "Source Sans Pro", Arial, sans-serif !important; }
 
-/* line 1542, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1559, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-serif {
   font-family: Georgia !important; }
 
 /* Font Styles */
-/* line 1548, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1565, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bold {
   font-weight: bold; }
 
-/* line 1552, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1569, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .normal-weight {
   font-weight: normal; }
 
-/* line 1556, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1573, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .thin {
   font-weight: 300; }
 
-/* line 1560, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1577, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .italic {
   font-style: italic; }
 
-/* line 1564, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1581, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .uppercase {
   text-transform: uppercase; }
 
-/* line 1568, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1585, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-right {
   text-align: right; }
 
-/* line 1572, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1589, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-center {
   text-align: center; }
 
-/* line 1576, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1593, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-left {
   text-align: left; }
 
 @media (max-width: 50em) {
-  /* line 1580, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1597, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .mobile-block-100 {
     width: 100%;
     display: block; } }
 
 /* Background Colors */
-/* line 1589, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1606, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--white {
   background: #eff6fd; }
 
-/* line 1593, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1610, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--light {
   background: #dfe9f3; }
 
-/* line 1597, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1614, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue {
   background: #6fb0f3; }
 
-/* line 1601, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1618, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--med {
   background: #235b94; }
 
-/* line 1605, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1622, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--dark {
   background: #1d4267; }
 
-/* line 1609, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1626, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray {
   background: #5d656f; }
 
-/* line 1613, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1630, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray--med {
   background: #383e46; }
 
-/* line 1617, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1634, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray--dark {
   background: #1c252f; }
 
-/* line 1621, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1638, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal--light {
   background: #edfbfa; }
 
-/* line 1625, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1642, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal {
   background: #41b4ad; }
 
-/* line 1629, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1646, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal--med {
   background: #1cb7b9; }
 
-/* line 1633, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1650, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-yellow {
   background: #f8e87c; }
 
-/* line 1637, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1654, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-white {
   background: white; }
 
-/* line 1641, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1658, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--light-transparent {
   background: rgba(223, 233, 243, 0.75); }
 
-/* line 1645, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1662, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue-teal--gradient {
   background: #e9f2f8;
   background: -moz-linear-gradient(-45deg, #e9f2f8 0%, #ddf6f7 100%);
@@ -1364,250 +1378,250 @@ ul, ol {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2f8', endColorstr='#ddf6f7',GradientType=1 ); }
 
 /* Font Colors */
-/* line 1655, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1672, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-gray {
   color: #565656 !important; }
 
-/* line 1659, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1676, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue--light {
   color: #6fb0f3 !important; }
 
-/* line 1663, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1680, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue {
   color: #3181d2 !important; }
 
-/* line 1667, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1684, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue--med {
   color: #235b94 !important; }
 
-/* line 1671, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1688, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal--light {
   color: #edfbfa !important; }
 
-/* line 1675, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1692, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal {
   color: #62d6cf !important; }
 
-/* line 1679, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1696, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal--med {
   color: #1cb7b9 !important; }
 
-/* line 1683, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1700, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-white {
   color: white !important; }
 
 /* Iconography */
-/* line 1690, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1707, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-container {
   padding: 1em 0 1em 1em !important; }
   @media (max-width: 50em) {
-    /* line 1690, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1707, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .icon-container {
       padding: .5em 0;
       text-align: center; } }
 
-/* line 1698, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1715, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 1703, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1720, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-caption {
   display: inline-block;
   vertical-align: middle;
   text-align: left;
   padding: 0 0 0 1rem; }
 
-/* line 1710, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1727, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-caption h3, .icon-caption p {
   margin: 0; }
 
-/* line 1714, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1731, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-sm {
   height: 32px;
   width: 32px; }
 
-/* line 1719, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1736, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-md {
   height: 64px;
   width: 64px; }
 
-/* line 1724, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1741, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-lg {
   height: 128px;
   width: 128px; }
 
-/* line 1729, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1746, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-city {
   background: url("../../img/icons/icon-city.gif") center/cover no-repeat; }
 
-/* line 1733, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1750, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-masks {
   background: url("../../img/icons/icon-masks.gif") center/cover no-repeat; }
 
-/* line 1737, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1754, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-spotlight {
   background: url("../../img/icons/icon-spotlight.gif") center/cover no-repeat; }
 
-/* line 1741, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1758, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-water {
   background: url("../../img/icons/icon-water.gif") center/cover no-repeat; }
 
 /* Polygon Fills */
-/* line 1748, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1765, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .fill-blue--dark {
   fill: #1c252f; }
 
 /* Position Swapping */
 @media (max-width: 50em) {
-  /* line 1756, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1773, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .swap-wrapper {
     display: table; }
-    /* line 1759, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1776, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .swap-wrapper .swap:first-child {
       display: table-footer-group; }
-    /* line 1763, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1780, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .swap-wrapper .swap:last-child {
       display: table-header-group; } }
 
 /* Margins & Padding */
-/* line 1773, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1790, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0 {
   margin: 0; }
 
-/* line 1777, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1794, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-t {
   margin-top: 0 !important; }
 
-/* line 1781, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1798, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-r {
   margin-right: 0; }
 
-/* line 1785, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1802, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-b {
   margin-bottom: 0; }
 
-/* line 1789, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1806, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-l {
   margin-left: 0; }
 
-/* line 1793, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1810, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15 {
   margin: 15px; }
 
-/* line 1797, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1814, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-t {
   margin-top: 15px; }
 
-/* line 1801, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1818, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-r {
   margin-right: 15px; }
 
-/* line 1805, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1822, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-b {
   margin-bottom: 15px; }
 
-/* line 1809, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1826, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-l {
   margin-left: 15px; }
 
-/* line 1813, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1830, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30 {
   margin: 30px; }
 
-/* line 1817, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1834, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-t {
   margin-top: 30px; }
 
-/* line 1821, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1838, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-r {
   margin-right: 30px; }
 
-/* line 1825, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1842, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-b {
   margin-bottom: 30px; }
 
-/* line 1829, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1846, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-l {
   margin-left: 30px; }
 
-/* line 1833, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1850, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45 {
   margin: 45px; }
 
-/* line 1837, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1854, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-t {
   margin-top: 45px; }
 
-/* line 1841, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1858, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-r {
   margin-right: 45px; }
 
-/* line 1845, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1862, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-b {
   margin-bottom: 45px; }
 
-/* line 1849, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1866, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-l {
   margin-left: 45px; }
 
-/* line 1853, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1870, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15 {
   padding: 15px; }
 
-/* line 1857, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1874, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-t {
   padding-top: 15px; }
 
-/* line 1861, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1878, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-r {
   padding-right: 15px; }
 
-/* line 1865, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1882, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-b {
   padding-bottom: 15px; }
 
-/* line 1869, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1886, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-l {
   padding-left: 15px; }
 
-/* line 1873, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1890, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30 {
   padding: 30px; }
 
-/* line 1877, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1894, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-t {
   padding-top: 30px; }
 
-/* line 1881, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1898, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-r {
   padding-right: 30px; }
 
-/* line 1885, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1902, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-b {
   padding-bottom: 30px; }
 
-/* line 1889, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1906, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-l {
   padding-left: 30px; }
 
-/* line 1893, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1910, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45 {
   padding: 45px; }
 
-/* line 1897, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1914, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-t {
   padding-top: 45px; }
 
-/* line 1901, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1918, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-r {
   padding-right: 45px; }
 
-/* line 1905, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1922, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-b {
   padding-bottom: 45px; }
 
-/* line 1909, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1926, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-l {
   padding-left: 45px; }
 
@@ -1616,22 +1630,22 @@ ul, ol {
 /*\/\/\/\/\/\/\/\/\/\/\ TEST/DEV/DO NOT USE \/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1921, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1938, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .container-test {
   border: 1px solid rgba(86, 86, 86, 0.5);
   color: white; }
 
-/* line 1926, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1943, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .demo-page {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
 
-/* line 1933, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1950, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .color-demo > div {
   height: 200px; }
 
 @media (max-width: 50em) {
-  /* line 1939, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1956, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .color-demo > div {
     height: 100px; } }
 
