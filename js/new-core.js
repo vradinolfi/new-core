@@ -13,7 +13,7 @@ $(window).resize(makeCircle);
 
 /* Circle Object */
 
-/* Video Header */
+/* Video Header 
 $(document).ready(function(){
 function isIE() {
     var myNav = navigator.userAgent.toLowerCase();
@@ -39,7 +39,7 @@ if($(window).width() > 599 && !isIEOld && !isiPad) {
 $('.video').prepend(el);
 });
 
-/* Video Header */
+ Video Header */
 
 /* Panel Triangle Auto Height & Color */
         
@@ -108,10 +108,10 @@ function swapNeighbors() {
             var item2 = $(this).children(".swap2");
         
         
-        if(windowWidth < 790){
+        if(windowWidth < 799){
             $(item2).insertBefore(item1);
         }
-        if(windowWidth > 790){
+        if(windowWidth > 800){
             $(item1).insertBefore(item2);
         }
     });

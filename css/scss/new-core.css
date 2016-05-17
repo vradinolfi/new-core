@@ -914,95 +914,103 @@ ul, ol {
         display: block;
         padding: 30px !important; } }
 
+@media (min-width: 30em) and (max-width: 50em) {
+  /* line 1148, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .outcomes-container > .size1of3 {
+    width: 33%; }
+  /* line 1152, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .outcomes-container > .size2of3 {
+    width: 66%; } }
+
 /* Image Stats Overlay */
-/* line 1147, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1161, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .image-stats-wrapper {
   padding: 45px !important; }
-  /* line 1151, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1165, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .image-stats-wrapper .image-stats-overlay {
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
     max-width: 500px;
     padding: 0 0 30px 0; }
     @media (max-width: 50em) {
-      /* line 1151, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      /* line 1165, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
       .image-stats-wrapper .image-stats-overlay {
         padding: 30px 0; } }
-    /* line 1166, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1180, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .image-stats-wrapper .image-stats-overlay .unit hr {
       margin: 15px 15px 15px 30px !important; }
-    /* line 1170, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1184, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .image-stats-wrapper .image-stats-overlay .unit h5 {
       margin-right: 15px !important; }
-    /* line 1174, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1188, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .image-stats-wrapper .image-stats-overlay .unit p {
       margin-left: 15px !important; }
     @media (max-width: 50em) {
-      /* line 1163, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      /* line 1177, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
       .image-stats-wrapper .image-stats-overlay .unit {
         text-align: center !important; }
-        /* line 1181, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+        /* line 1195, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
         .image-stats-wrapper .image-stats-overlay .unit h5, .image-stats-wrapper .image-stats-overlay .unit p {
           margin: 0 !important; }
-        /* line 1185, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+        /* line 1199, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
         .image-stats-wrapper .image-stats-overlay .unit hr {
           margin: 15px 30px !important; } }
 
 /* SVGs & Triangle Parts */
 @media (max-width: 50em) {
-  /* line 1196, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1210, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .svg-triangle {
     display: none; } }
 
 /* Footer */
-/* line 1203, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1217, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .footer {
   background: #1c252f !important;
   text-align: center;
   color: lightgray !important; }
-  /* line 1209, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1223, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer h2 {
     color: #6fb0f3; }
-  /* line 1213, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1227, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer a {
     text-decoration: none !important;
     color: #6fb0f3 !important; }
-  /* line 1218, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1232, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer a:hover {
     text-decoration: underline !important; }
-  /* line 1222, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1236, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .footer p {
     color: #bec4cb; }
   @media (max-width: 50em) {
-    /* line 1227, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1241, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .footer .size1of3 p {
       margin: 0; } }
 
-/* line 1236, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1250, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .copyright {
   background: #1c252f;
   border-top: #383e46 1px solid;
   color: lightgray; }
-  /* line 1242, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1256, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .copyright a {
     text-decoration: underline !important;
     color: #6fb0f3; }
 
-/* line 1251, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1265, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .skin-social a {
   margin-left: 4px !important;
   margin-right: 4px !important; }
-  /* line 1255, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1269, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .skin-social a.fb {
     background: url(../../img/icons/footer-FB.png); }
-  /* line 1259, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1273, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .skin-social a.twitter {
     background: url(../../img/icons/footer-twitter.png); }
-  /* line 1263, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1277, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .skin-social a.instagram {
     background: url(../../img/icons/footer-instagram.png); }
 
-/* line 1273, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1287, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ul-new li {
   list-style: none;
   position: relative;
@@ -1012,7 +1020,7 @@ ul, ol {
         @extend %bullet-image;
         */ }
 
-/* line 1284, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1298, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ul-new li::before {
   position: absolute;
   display: block;
@@ -1027,7 +1035,7 @@ ul, ol {
   background-size: .7em;
   background-position: 0 0.2em; }
 
-/* line 1302, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1316, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ul-circles li {
   list-style: circle; }
 
@@ -1037,14 +1045,14 @@ ul, ol {
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
 /* Stats & Infographics */
-/* line 1316, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1330, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .stat-number {
   font-family: "Roboto Slab", Georgia, serif;
   font-style: italic;
   font-weight: 400;
   margin: 0; }
 
-/* line 1323, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1337, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .pipes {
   border-top: 1px solid #dfe9f3;
   border-bottom: 1px solid #dfe9f3;
@@ -1055,84 +1063,84 @@ ul, ol {
 /*\/\/\/\/\/\/\/\/\/\/\/\/\/\/ THEME /\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1335, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1349, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-ghost-blue {
   border-color: #235b94;
   color: #235b94 !important; }
-  /* line 1339, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1353, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-ghost-blue:hover {
     background-color: #235b94;
     color: white !important;
     text-decoration: none; }
 
-/* line 1346, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1360, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-ghost-teal {
   border-color: #41b4ad;
   color: white !important; }
-  /* line 1350, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1364, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-ghost-teal:hover {
     background-color: #41b4ad;
     color: white !important;
     text-decoration: none; }
 
-/* line 1357, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1371, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-ghost-teal-2 {
   border-color: #41b4ad;
   color: #41b4ad !important; }
-  /* line 1361, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1375, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-ghost-teal-2:hover {
     background-color: #41b4ad;
     color: white !important;
     text-decoration: none; }
 
-/* line 1368, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1382, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .cta-dark-teal {
   border-color: #41b4ad;
   color: white !important;
   background: #383e46; }
-  /* line 1373, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1387, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .cta-dark-teal:hover {
     background-color: #41b4ad;
     text-decoration: none; }
 
 /* Masthead */
-/* line 1381, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1395, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .masthead {
   background: #e4ebf8; }
 
-/* line 1385, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1399, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .logo-short {
   background: url(../../img/dpu-logo-short.png) no-repeat;
   width: 182px;
   height: 43px;
   border-right: 2px #20456c solid !important; }
 
-/* line 1392, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1406, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-logo .h1 {
   font-size: 26px; }
 
-/* line 1396, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1410, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts {
   font-family: "Source Sans Pro",sans-serif;
   background: #225b94;
   color: #fff; }
 
-/* line 1402, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1416, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts-drawer {
   font-family: "Source Sans Pro",sans-serif;
   background: #093D71;
   color: #fff !important; }
 
-/* line 1408, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1422, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts-drawer a {
   color: #fff !important; }
 
-/* line 1412, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1426, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .dpu-shortcuts-drawer a:hover {
   background: #344e59; }
 
 /* Navigation */
-/* line 1418, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1432, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary {
   font-family: "proxima-nova-condensed";
   font-weight: normal;
@@ -1142,34 +1150,34 @@ ul, ol {
   background: #1d4267;
   z-index: 9999; }
 
-/* line 1428, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1442, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary li {
   border-right: none !important; }
 
-/* line 1432, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1446, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary li a {
   color: white; }
 
-/* line 1436, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1450, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary li a:hover {
   background: #1c252f; }
 
-/* line 1440, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1454, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-primary .level-2 {
   background: #1d4267; }
 
 /* Secondary Nav */
-/* line 1446, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1460, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 #ga-secondary {
   padding-right: 30px; }
 
-/* line 1450, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1464, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 #ga-secondary h4 a {
   border-bottom: 3px solid #383e46;
   color: #1c252f;
   font-size: 0.9em; }
 
-/* line 1456, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1470, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary li a {
   background: white !important;
   font-family: "proxima-nova-condensed", Arial, sans-serif;
@@ -1180,51 +1188,52 @@ ul, ol {
   font-weight: bold;
   font-size: 0.9em; }
 
-/* line 1467, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1481, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .active > a {
   background: #235b94 !important;
   color: white !important; }
 
-/* line 1472, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1486, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary li a:hover {
   background: #dfe9f3 !important;
   color: #565656 !important; }
 
-/* line 1477, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1491, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary ul.level-2 {
   background: white !important; }
 
-/* line 1481, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1495, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .child-sub li, .nav-secondary ul.level-2 li:last-child a {
   margin: 0 !important; }
 
-/* line 1485, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1499, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary ul {
   padding: 0; }
 
-/* line 1489, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1503, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .level-2 li > a, .nav-secondary .level-2 .active > a {
   padding-left: 1.5em !important;
   text-transform: inherit !important;
   margin: 0; }
 
-/* line 1495, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1509, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .nav-secondary .level-3 li a, .nav-secondary .level-3 .active a, .nav-secondary .level-3 .child-sub a, .nav-secondary .level-3 .child-page a, .nav-secondary .level-3 .nav-manual a {
   padding-left: 2em !important;
   text-transform: inherit !important;
   margin: 0; }
 
 @media only screen and (max-width: 1366px) {
-  /* line 1502, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1516, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .nav-primary li > ul {
     top: 30px !important; } }
 
+/* * Home Page */
 /*****************************************************************/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*\/\/\/\/\/\/\/\/\/\/\/\/\/ OVERRIDES /\/\/\/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1513, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1531, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .vertical-center {
   position: relative;
   top: 50%;
@@ -1232,144 +1241,148 @@ ul, ol {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-/* line 1521, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1539, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .no-border {
   border: none !important; }
 
-/* line 1525, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1543, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .no-padding {
   padding: 0 !important; }
 
-/* line 1529, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1547, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .content-body .unit {
   padding: 0 15px; }
 
-/* line 1533, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1551, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ls3 {
   letter-spacing: 3px; }
 
-/* line 1537, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1555, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .lh0 {
   line-height: 0; }
 
-/* line 1541, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1559, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .vertical-align--middle {
   vertical-align: middle; }
 
 /* Font Stacks */
-/* line 1547, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1565, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-proxima {
   font-family: "proxima-nova-condensed", Arial, sans-serif !important; }
 
-/* line 1551, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1569, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-roboto {
   font-family: "Roboto Slab", Georgia, serif !important; }
 
-/* line 1555, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1573, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-source-sans {
   font-family: "Source Sans Pro", Arial, sans-serif !important; }
 
-/* line 1559, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1577, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-serif {
   font-family: Georgia !important; }
 
 /* Font Styles */
-/* line 1565, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1583, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bold {
   font-weight: bold; }
 
-/* line 1569, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1587, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .normal-weight {
   font-weight: normal; }
 
-/* line 1573, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1591, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .thin {
   font-weight: 300; }
 
-/* line 1577, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1595, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .italic {
   font-style: italic; }
 
-/* line 1581, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1599, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .uppercase {
   text-transform: uppercase; }
 
-/* line 1585, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1603, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-right {
   text-align: right; }
 
-/* line 1589, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1607, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-center {
   text-align: center; }
 
-/* line 1593, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1611, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-left {
   text-align: left; }
 
 @media (max-width: 50em) {
-  /* line 1597, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1615, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .mobile-block-100 {
     width: 100%;
     display: block; } }
 
 /* Background Colors */
-/* line 1606, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1624, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--white {
   background: #eff6fd; }
 
-/* line 1610, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1628, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--light {
   background: #dfe9f3; }
 
-/* line 1614, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1632, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue {
   background: #6fb0f3; }
 
-/* line 1618, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1636, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--med {
   background: #235b94; }
 
-/* line 1622, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1640, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--dark {
   background: #1d4267; }
 
-/* line 1626, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1644, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray {
   background: #5d656f; }
 
-/* line 1630, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1648, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray--med {
   background: #383e46; }
 
-/* line 1634, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1652, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray--dark {
   background: #1c252f; }
 
-/* line 1638, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1656, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal--light {
   background: #edfbfa; }
 
-/* line 1642, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1660, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal {
   background: #41b4ad; }
 
-/* line 1646, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1664, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal--med {
   background: #1cb7b9; }
 
-/* line 1650, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1668, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-yellow {
   background: #f8e87c; }
 
-/* line 1654, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1672, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-white {
   background: white; }
 
-/* line 1658, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1676, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--light-transparent {
   background: rgba(223, 233, 243, 0.75); }
 
-/* line 1662, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1680, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.bg-blue--transparent {
+  background: rgba(29, 66, 103, 0.5); }
+
+/* line 1684, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue-teal--gradient {
   background: #e9f2f8;
   background: -moz-linear-gradient(-45deg, #e9f2f8 0%, #ddf6f7 100%);
@@ -1378,250 +1391,250 @@ ul, ol {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2f8', endColorstr='#ddf6f7',GradientType=1 ); }
 
 /* Font Colors */
-/* line 1672, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1694, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-gray {
   color: #565656 !important; }
 
-/* line 1676, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1698, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue--light {
   color: #6fb0f3 !important; }
 
-/* line 1680, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1702, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue {
   color: #3181d2 !important; }
 
-/* line 1684, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1706, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue--med {
   color: #235b94 !important; }
 
-/* line 1688, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1710, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal--light {
   color: #edfbfa !important; }
 
-/* line 1692, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1714, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal {
   color: #62d6cf !important; }
 
-/* line 1696, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1718, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal--med {
   color: #1cb7b9 !important; }
 
-/* line 1700, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1722, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-white {
   color: white !important; }
 
 /* Iconography */
-/* line 1707, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1729, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-container {
   padding: 1em 0 1em 1em !important; }
   @media (max-width: 50em) {
-    /* line 1707, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1729, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .icon-container {
       padding: .5em 0;
       text-align: center; } }
 
-/* line 1715, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1737, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 1720, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1742, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-caption {
   display: inline-block;
   vertical-align: middle;
   text-align: left;
   padding: 0 0 0 1rem; }
 
-/* line 1727, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1749, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-caption h3, .icon-caption p {
   margin: 0; }
 
-/* line 1731, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1753, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-sm {
   height: 32px;
   width: 32px; }
 
-/* line 1736, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1758, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-md {
   height: 64px;
   width: 64px; }
 
-/* line 1741, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1763, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-lg {
   height: 128px;
   width: 128px; }
 
-/* line 1746, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1768, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-city {
   background: url("../../img/icons/icon-city.gif") center/cover no-repeat; }
 
-/* line 1750, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1772, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-masks {
   background: url("../../img/icons/icon-masks.gif") center/cover no-repeat; }
 
-/* line 1754, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1776, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-spotlight {
   background: url("../../img/icons/icon-spotlight.gif") center/cover no-repeat; }
 
-/* line 1758, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1780, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-water {
   background: url("../../img/icons/icon-water.gif") center/cover no-repeat; }
 
 /* Polygon Fills */
-/* line 1765, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1787, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .fill-blue--dark {
   fill: #1c252f; }
 
 /* Position Swapping */
 @media (max-width: 50em) {
-  /* line 1773, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1795, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .swap-wrapper {
     display: table; }
-    /* line 1776, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1798, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .swap-wrapper .swap:first-child {
       display: table-footer-group; }
-    /* line 1780, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1802, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .swap-wrapper .swap:last-child {
       display: table-header-group; } }
 
 /* Margins & Padding */
-/* line 1790, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1812, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0 {
   margin: 0; }
 
-/* line 1794, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1816, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-t {
   margin-top: 0 !important; }
 
-/* line 1798, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1820, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-r {
   margin-right: 0; }
 
-/* line 1802, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1824, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-b {
   margin-bottom: 0; }
 
-/* line 1806, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1828, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-l {
   margin-left: 0; }
 
-/* line 1810, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1832, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15 {
   margin: 15px; }
 
-/* line 1814, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1836, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-t {
   margin-top: 15px; }
 
-/* line 1818, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1840, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-r {
   margin-right: 15px; }
 
-/* line 1822, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1844, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-b {
   margin-bottom: 15px; }
 
-/* line 1826, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1848, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-l {
   margin-left: 15px; }
 
-/* line 1830, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1852, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30 {
   margin: 30px; }
 
-/* line 1834, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1856, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-t {
   margin-top: 30px; }
 
-/* line 1838, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1860, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-r {
   margin-right: 30px; }
 
-/* line 1842, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1864, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-b {
   margin-bottom: 30px; }
 
-/* line 1846, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1868, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-l {
   margin-left: 30px; }
 
-/* line 1850, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1872, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45 {
   margin: 45px; }
 
-/* line 1854, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1876, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-t {
   margin-top: 45px; }
 
-/* line 1858, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1880, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-r {
   margin-right: 45px; }
 
-/* line 1862, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1884, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-b {
   margin-bottom: 45px; }
 
-/* line 1866, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1888, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-l {
   margin-left: 45px; }
 
-/* line 1870, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1892, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15 {
   padding: 15px; }
 
-/* line 1874, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1896, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-t {
   padding-top: 15px; }
 
-/* line 1878, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1900, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-r {
   padding-right: 15px; }
 
-/* line 1882, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1904, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-b {
   padding-bottom: 15px; }
 
-/* line 1886, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1908, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-l {
   padding-left: 15px; }
 
-/* line 1890, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1912, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30 {
   padding: 30px; }
 
-/* line 1894, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1916, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-t {
   padding-top: 30px; }
 
-/* line 1898, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1920, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-r {
   padding-right: 30px; }
 
-/* line 1902, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1924, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-b {
   padding-bottom: 30px; }
 
-/* line 1906, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1928, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-l {
   padding-left: 30px; }
 
-/* line 1910, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1932, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45 {
   padding: 45px; }
 
-/* line 1914, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1936, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-t {
   padding-top: 45px; }
 
-/* line 1918, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1940, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-r {
   padding-right: 45px; }
 
-/* line 1922, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1944, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-b {
   padding-bottom: 45px; }
 
-/* line 1926, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1948, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-l {
   padding-left: 45px; }
 
@@ -1630,22 +1643,22 @@ ul, ol {
 /*\/\/\/\/\/\/\/\/\/\/\ TEST/DEV/DO NOT USE \/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1938, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1960, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .container-test {
   border: 1px solid rgba(86, 86, 86, 0.5);
   color: white; }
 
-/* line 1943, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1965, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .demo-page {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
 
-/* line 1950, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1972, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .color-demo > div {
   height: 200px; }
 
 @media (max-width: 50em) {
-  /* line 1956, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1978, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .color-demo > div {
     height: 100px; } }
 
