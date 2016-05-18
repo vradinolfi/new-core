@@ -1518,7 +1518,241 @@ ul, ol {
     }
 }
 
-/* * Home Page */
+
+
+/* Home Page */
+
+.home-header--image {
+    background: url('http://placehold.it/1920x600') no-repeat center center / cover;
+    height: 600px;
+    padding: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
+    -webkit-clip-path: url("#header-clip"); 
+    clip-path: url("#header-clip");
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 50em) {
+        height: 400px;
+    }
+}
+
+.home-header--content {
+    position: relative;
+    height: 100%;
+    padding: 0;
+    
+    .home-header--tagline {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(35,91,148,0.5);
+        padding: 0 30px;
+        width: 650px;
+        z-index: 2;
+        
+        h2 {
+            color: #fff;
+            font-size: 3rem;
+            text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+        }
+    }
+
+    .home-header--cta {
+        position: absolute;
+        bottom: -150px;
+        right: 0;
+        background: #41b4ad;
+        padding: 0 30px;
+        color: #fff;
+        width: 33%;
+        height: 400px;
+        z-index: 0;
+        
+        div {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 0 30px;
+            
+            a {
+                color: #0f514d;
+            }
+        }
+    }
+}
+
+.home-page--h2 {
+    font-size: 2.5rem;
+    color: #1e5b94;
+}
+
+.home-icon--container {
+    padding-top: 45px;
+
+    .icon-container {
+        padding: 0 15px 30px 15px !important;
+    }
+
+    .icon-caption {
+        line-height: 1;
+
+        span {
+            font-size: .85rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-style: italic;
+            font-weight: 300;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+}
+
+.academics-section--container {
+    background: url('http://placehold.it/1920x600') no-repeat center center / cover;
+    text-align: center;
+    height: 600px;
+    -webkit-clip-path: polygon(0 15%, 31% 0, 100% 15%, 100% 100%, 0 100%);
+    clip-path: polygon(0 15%, 31% 0, 100% 15%, 100% 100%, 0 100%);
+    -webkit-clip-path: url("#academics-clip"); 
+    clip-path: url("#academics-clip");
+    display: table;
+    width: 100%;
+}
+
+.academics-section--content {
+    display: table-cell;
+    vertical-align: middle;
+
+    h2 {
+        color: #fff;
+        font-size: 3rem;
+        text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+    }
+
+    .cta-core {
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        width: 100%;
+        max-width: 400px;
+        background: rgba(0,0,0,0.25);
+        font-size: 1.2rem;
+        margin-left: 0;
+        margin-right: 0;
+        
+        @media (max-width: 50em) {
+            max-width: 100%;
+        }
+    }
+
+    .cta-core:hover {
+        background: #41b4ad;
+    }
+
+    .cta-core {
+        
+        h3 {
+            display: inline;
+            font-family: 'Roboto Slab', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+    }
+}
+
+.iamdepaul-header {
+
+    h2 {
+        color: #1e5b94;
+        font-size: 3rem;
+        text-shadow: 2px 2px 1px rgba(30,91,148,0.5);
+    }
+
+    h3 {
+        color: #06355f;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+.insta-grid--row {
+    font-size: 0;
+}
+
+.insta-grid--sm {
+    width: 150px;
+    margin: 0 10px 10px 0;
+    line-height: 0;
+    display: inline-block;
+}
+
+.insta-grid--sm-top {
+    vertical-align: top;
+}
+
+.insta-grid--lg:last-child, .insta-grid--sm:last-child {
+    margin: 0 0 10px 0;
+}
+
+.insta-grid--lg {
+    width: 300px;
+    margin: 0 10px 10px 0;
+    line-height: 0;
+    display: inline-block;
+}
+
+.cta-section--container {
+    padding: 120px 15px 15px 15px;
+    background: url('http://placehold.it/1920x600') no-repeat center center / cover;
+    margin-bottom: 0;
+    -webkit-clip-path: polygon(0 0, 69% 15%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 69% 15%, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: url("#cta-clip"); 
+    clip-path: url("#cta-clip");
+    
+    h2 {
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+    }
+
+    a {
+        color: #6fb0f3;
+    }
+}
+
+.give-container {
+    display: table;
+    padding: 15px 0;
+    
+    h2 {
+        font-weight: bold;
+    }
+
+    .give-content {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+
+    }
+
+    @media (max-width: 50em) {
+
+        display: inherit;
+
+        .give-content {
+            display: inherit;
+            float: left;
+
+        }
+
+        h2, p {
+            margin-top: 0;
+        }
+
+    }
+}
 
 
 
@@ -1887,6 +2121,26 @@ ul, ol {
 
 .m45-l {
     margin-left: 45px;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.p0-t {
+    padding-top: 0;
+}
+
+.p0-r {
+    padding-right: 0;
+}
+
+.p0-b {
+    padding-bottom: 0;
+}
+
+.p0-l {
+    padding-left: 0;
 }
 
 .p15 {

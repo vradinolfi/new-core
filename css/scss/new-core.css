@@ -1227,13 +1227,216 @@ ul, ol {
   .nav-primary li > ul {
     top: 30px !important; } }
 
-/* * Home Page */
+/* Home Page */
+/* line 1525, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.home-header--image {
+  background: url("http://placehold.it/1920x600") no-repeat center center/cover;
+  height: 600px;
+  padding: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
+  -webkit-clip-path: url("#header-clip");
+  clip-path: url("#header-clip");
+  position: relative;
+  z-index: 1; }
+  @media (max-width: 50em) {
+    /* line 1525, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    .home-header--image {
+      height: 400px; } }
+
+/* line 1541, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.home-header--content {
+  position: relative;
+  height: 100%;
+  padding: 0; }
+  /* line 1546, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .home-header--content .home-header--tagline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(35, 91, 148, 0.5);
+    padding: 0 30px;
+    width: 650px;
+    z-index: 2; }
+    /* line 1555, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    .home-header--content .home-header--tagline h2 {
+      color: #fff;
+      font-size: 3rem;
+      text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); }
+  /* line 1562, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .home-header--content .home-header--cta {
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    background: #41b4ad;
+    padding: 0 30px;
+    color: #fff;
+    width: 33%;
+    height: 400px;
+    z-index: 0; }
+    /* line 1573, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    .home-header--content .home-header--cta div {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 0 30px; }
+      /* line 1579, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      .home-header--content .home-header--cta div a {
+        color: #0f514d; }
+
+/* line 1586, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.home-page--h2 {
+  font-size: 2.5rem;
+  color: #1e5b94; }
+
+/* line 1591, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.home-icon--container {
+  padding-top: 45px; }
+  /* line 1594, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .home-icon--container .icon-container {
+    padding: 0 15px 30px 15px !important; }
+  /* line 1598, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .home-icon--container .icon-caption {
+    line-height: 1; }
+    /* line 1601, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    .home-icon--container .icon-caption span {
+      font-size: .85rem; }
+    /* line 1605, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    .home-icon--container .icon-caption h3 {
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: 300;
+      font-family: 'Roboto Slab', serif; }
+
+/* line 1614, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.academics-section--container {
+  background: url("http://placehold.it/1920x600") no-repeat center center/cover;
+  text-align: center;
+  height: 600px;
+  -webkit-clip-path: polygon(0 15%, 31% 0, 100% 15%, 100% 100%, 0 100%);
+  clip-path: polygon(0 15%, 31% 0, 100% 15%, 100% 100%, 0 100%);
+  -webkit-clip-path: url("#academics-clip");
+  clip-path: url("#academics-clip");
+  display: table;
+  width: 100%; }
+
+/* line 1626, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.academics-section--content {
+  display: table-cell;
+  vertical-align: middle; }
+  /* line 1630, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .academics-section--content h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); }
+  /* line 1636, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .academics-section--content .cta-core {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.25);
+    font-size: 1.2rem;
+    margin-left: 0;
+    margin-right: 0; }
+    @media (max-width: 50em) {
+      /* line 1636, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      .academics-section--content .cta-core {
+        max-width: 100%; } }
+  /* line 1650, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .academics-section--content .cta-core:hover {
+    background: #41b4ad; }
+  /* line 1656, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .academics-section--content .cta-core h3 {
+    display: inline;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300; }
+
+/* line 1667, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.iamdepaul-header h2 {
+  color: #1e5b94;
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px rgba(30, 91, 148, 0.5); }
+
+/* line 1673, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.iamdepaul-header h3 {
+  color: #06355f;
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+/* line 1680, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.insta-grid--row {
+  font-size: 0; }
+
+/* line 1684, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.insta-grid--sm {
+  width: 150px;
+  margin: 0 10px 10px 0;
+  line-height: 0;
+  display: inline-block; }
+
+/* line 1691, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.insta-grid--sm-top {
+  vertical-align: top; }
+
+/* line 1695, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.insta-grid--lg:last-child, .insta-grid--sm:last-child {
+  margin: 0 0 10px 0; }
+
+/* line 1699, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.insta-grid--lg {
+  width: 300px;
+  margin: 0 10px 10px 0;
+  line-height: 0;
+  display: inline-block; }
+
+/* line 1706, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.cta-section--container {
+  padding: 120px 15px 15px 15px;
+  background: url("http://placehold.it/1920x600") no-repeat center center/cover;
+  margin-bottom: 0;
+  -webkit-clip-path: polygon(0 0, 69% 15%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 69% 15%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: url("#cta-clip");
+  clip-path: url("#cta-clip"); }
+  /* line 1715, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .cta-section--container h2 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5); }
+  /* line 1720, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .cta-section--container a {
+    color: #6fb0f3; }
+
+/* line 1725, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.give-container {
+  display: table;
+  padding: 15px 0; }
+  /* line 1729, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .give-container h2 {
+    font-weight: bold; }
+  /* line 1733, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  .give-container .give-content {
+    display: table-cell;
+    vertical-align: middle;
+    float: none; }
+  @media (max-width: 50em) {
+    /* line 1725, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    .give-container {
+      display: inherit; }
+      /* line 1744, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      .give-container .give-content {
+        display: inherit;
+        float: left; }
+      /* line 1750, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+      .give-container h2, .give-container p {
+        margin-top: 0; } }
+
 /*****************************************************************/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*\/\/\/\/\/\/\/\/\/\/\/\/\/ OVERRIDES /\/\/\/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1531, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1765, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .vertical-center {
   position: relative;
   top: 50%;
@@ -1241,148 +1444,148 @@ ul, ol {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-/* line 1539, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1773, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .no-border {
   border: none !important; }
 
-/* line 1543, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1777, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .no-padding {
   padding: 0 !important; }
 
-/* line 1547, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1781, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .content-body .unit {
   padding: 0 15px; }
 
-/* line 1551, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1785, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .ls3 {
   letter-spacing: 3px; }
 
-/* line 1555, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1789, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .lh0 {
   line-height: 0; }
 
-/* line 1559, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1793, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .vertical-align--middle {
   vertical-align: middle; }
 
 /* Font Stacks */
-/* line 1565, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1799, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-proxima {
   font-family: "proxima-nova-condensed", Arial, sans-serif !important; }
 
-/* line 1569, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1803, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-roboto {
   font-family: "Roboto Slab", Georgia, serif !important; }
 
-/* line 1573, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1807, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-source-sans {
   font-family: "Source Sans Pro", Arial, sans-serif !important; }
 
-/* line 1577, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1811, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .font-serif {
   font-family: Georgia !important; }
 
 /* Font Styles */
-/* line 1583, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1817, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bold {
   font-weight: bold; }
 
-/* line 1587, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1821, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .normal-weight {
   font-weight: normal; }
 
-/* line 1591, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1825, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .thin {
   font-weight: 300; }
 
-/* line 1595, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1829, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .italic {
   font-style: italic; }
 
-/* line 1599, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1833, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .uppercase {
   text-transform: uppercase; }
 
-/* line 1603, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1837, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-right {
   text-align: right; }
 
-/* line 1607, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1841, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-center {
   text-align: center; }
 
-/* line 1611, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1845, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-left {
   text-align: left; }
 
 @media (max-width: 50em) {
-  /* line 1615, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 1849, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .mobile-block-100 {
     width: 100%;
     display: block; } }
 
 /* Background Colors */
-/* line 1624, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1858, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--white {
   background: #eff6fd; }
 
-/* line 1628, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1862, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--light {
   background: #dfe9f3; }
 
-/* line 1632, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1866, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue {
   background: #6fb0f3; }
 
-/* line 1636, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1870, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--med {
   background: #235b94; }
 
-/* line 1640, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1874, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--dark {
   background: #1d4267; }
 
-/* line 1644, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1878, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray {
   background: #5d656f; }
 
-/* line 1648, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1882, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray--med {
   background: #383e46; }
 
-/* line 1652, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1886, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-gray--dark {
   background: #1c252f; }
 
-/* line 1656, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1890, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal--light {
   background: #edfbfa; }
 
-/* line 1660, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1894, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal {
   background: #41b4ad; }
 
-/* line 1664, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1898, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-teal--med {
   background: #1cb7b9; }
 
-/* line 1668, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1902, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-yellow {
   background: #f8e87c; }
 
-/* line 1672, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1906, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-white {
   background: white; }
 
-/* line 1676, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1910, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--light-transparent {
   background: rgba(223, 233, 243, 0.75); }
 
-/* line 1680, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1914, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue--transparent {
   background: rgba(29, 66, 103, 0.5); }
 
-/* line 1684, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1918, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .bg-blue-teal--gradient {
   background: #e9f2f8;
   background: -moz-linear-gradient(-45deg, #e9f2f8 0%, #ddf6f7 100%);
@@ -1391,250 +1594,270 @@ ul, ol {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2f8', endColorstr='#ddf6f7',GradientType=1 ); }
 
 /* Font Colors */
-/* line 1694, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1928, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-gray {
   color: #565656 !important; }
 
-/* line 1698, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1932, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue--light {
   color: #6fb0f3 !important; }
 
-/* line 1702, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1936, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue {
   color: #3181d2 !important; }
 
-/* line 1706, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1940, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-blue--med {
   color: #235b94 !important; }
 
-/* line 1710, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1944, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal--light {
   color: #edfbfa !important; }
 
-/* line 1714, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1948, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal {
   color: #62d6cf !important; }
 
-/* line 1718, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1952, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-teal--med {
   color: #1cb7b9 !important; }
 
-/* line 1722, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1956, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .text-white {
   color: white !important; }
 
 /* Iconography */
-/* line 1729, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1963, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-container {
   padding: 1em 0 1em 1em !important; }
   @media (max-width: 50em) {
-    /* line 1729, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 1963, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .icon-container {
       padding: .5em 0;
       text-align: center; } }
 
-/* line 1737, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1971, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 1742, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1976, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-caption {
   display: inline-block;
   vertical-align: middle;
   text-align: left;
   padding: 0 0 0 1rem; }
 
-/* line 1749, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1983, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-caption h3, .icon-caption p {
   margin: 0; }
 
-/* line 1753, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1987, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-sm {
   height: 32px;
   width: 32px; }
 
-/* line 1758, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1992, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-md {
   height: 64px;
   width: 64px; }
 
-/* line 1763, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 1997, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-lg {
   height: 128px;
   width: 128px; }
 
-/* line 1768, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2002, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-city {
   background: url("../../img/icons/icon-city.gif") center/cover no-repeat; }
 
-/* line 1772, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2006, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-masks {
   background: url("../../img/icons/icon-masks.gif") center/cover no-repeat; }
 
-/* line 1776, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2010, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-spotlight {
   background: url("../../img/icons/icon-spotlight.gif") center/cover no-repeat; }
 
-/* line 1780, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2014, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .icon-water {
   background: url("../../img/icons/icon-water.gif") center/cover no-repeat; }
 
 /* Polygon Fills */
-/* line 1787, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2021, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .fill-blue--dark {
   fill: #1c252f; }
 
 /* Position Swapping */
 @media (max-width: 50em) {
-  /* line 1795, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 2029, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .swap-wrapper {
     display: table; }
-    /* line 1798, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 2032, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .swap-wrapper .swap:first-child {
       display: table-footer-group; }
-    /* line 1802, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+    /* line 2036, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
     .swap-wrapper .swap:last-child {
       display: table-header-group; } }
 
 /* Margins & Padding */
-/* line 1812, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2046, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0 {
   margin: 0; }
 
-/* line 1816, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2050, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-t {
   margin-top: 0 !important; }
 
-/* line 1820, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2054, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-r {
   margin-right: 0; }
 
-/* line 1824, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2058, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-b {
   margin-bottom: 0; }
 
-/* line 1828, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2062, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m0-l {
   margin-left: 0; }
 
-/* line 1832, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2066, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15 {
   margin: 15px; }
 
-/* line 1836, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2070, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-t {
   margin-top: 15px; }
 
-/* line 1840, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2074, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-r {
   margin-right: 15px; }
 
-/* line 1844, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2078, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-b {
   margin-bottom: 15px; }
 
-/* line 1848, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2082, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m15-l {
   margin-left: 15px; }
 
-/* line 1852, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2086, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30 {
   margin: 30px; }
 
-/* line 1856, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2090, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-t {
   margin-top: 30px; }
 
-/* line 1860, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2094, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-r {
   margin-right: 30px; }
 
-/* line 1864, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2098, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-b {
   margin-bottom: 30px; }
 
-/* line 1868, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2102, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m30-l {
   margin-left: 30px; }
 
-/* line 1872, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2106, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45 {
   margin: 45px; }
 
-/* line 1876, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2110, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-t {
   margin-top: 45px; }
 
-/* line 1880, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2114, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-r {
   margin-right: 45px; }
 
-/* line 1884, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2118, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-b {
   margin-bottom: 45px; }
 
-/* line 1888, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2122, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .m45-l {
   margin-left: 45px; }
 
-/* line 1892, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2126, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.p0 {
+  padding: 0; }
+
+/* line 2130, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.p0-t {
+  padding-top: 0; }
+
+/* line 2134, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.p0-r {
+  padding-right: 0; }
+
+/* line 2138, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.p0-b {
+  padding-bottom: 0; }
+
+/* line 2142, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+.p0-l {
+  padding-left: 0; }
+
+/* line 2146, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15 {
   padding: 15px; }
 
-/* line 1896, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2150, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-t {
   padding-top: 15px; }
 
-/* line 1900, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2154, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-r {
   padding-right: 15px; }
 
-/* line 1904, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2158, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-b {
   padding-bottom: 15px; }
 
-/* line 1908, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2162, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p15-l {
   padding-left: 15px; }
 
-/* line 1912, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2166, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30 {
   padding: 30px; }
 
-/* line 1916, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2170, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-t {
   padding-top: 30px; }
 
-/* line 1920, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2174, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-r {
   padding-right: 30px; }
 
-/* line 1924, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2178, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-b {
   padding-bottom: 30px; }
 
-/* line 1928, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2182, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p30-l {
   padding-left: 30px; }
 
-/* line 1932, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2186, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45 {
   padding: 45px; }
 
-/* line 1936, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2190, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-t {
   padding-top: 45px; }
 
-/* line 1940, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2194, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-r {
   padding-right: 45px; }
 
-/* line 1944, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2198, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-b {
   padding-bottom: 45px; }
 
-/* line 1948, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2202, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .p45-l {
   padding-left: 45px; }
 
@@ -1643,22 +1866,22 @@ ul, ol {
 /*\/\/\/\/\/\/\/\/\/\/\ TEST/DEV/DO NOT USE \/\/\/\/\/\/\/\/\/\/\*/
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*/
 /*****************************************************************/
-/* line 1960, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2214, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .container-test {
   border: 1px solid rgba(86, 86, 86, 0.5);
   color: white; }
 
-/* line 1965, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2219, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .demo-page {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
 
-/* line 1972, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+/* line 2226, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
 .color-demo > div {
   height: 200px; }
 
 @media (max-width: 50em) {
-  /* line 1978, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
+  /* line 2232, /Users/vincentadinolfi/Documents/new-core/master/css/scss/new-core.scss */
   .color-demo > div {
     height: 100px; } }
 
