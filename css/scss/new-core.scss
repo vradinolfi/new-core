@@ -676,19 +676,35 @@ ul, ol {
             padding: 30px;
         }
     }
+    
+    .swap {
+        @media (min-width: 50em) {
+            display: table-row;
+        }
+    }
 }
 
 
 
 
+.split-panel-large--wrapper {
+    display: table;
+    width: 100%;
+}
 
+.split-panel-large--full {
+    padding: 75px 15px;
+}
 
 .split-panel-large {
-    height: 600px;
+    display: table-cell;
     position: relative;
     background: white;
     text-align: center;
-    padding: 0;
+    padding: 60px 30px!important;
+    height: 100%;
+    width: 50%;
+    float: none;
 
     h1 {
         margin-top: 0;
@@ -700,12 +716,6 @@ ul, ol {
         margin: 1rem 0 !important;
         padding: 0;
         color: $gray;
-    }
-
-    .vertical-center {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
     }
     
     &.panel-image--left {
@@ -1036,10 +1046,7 @@ ul, ol {
 /* Misc. Panels */
 
 .overlay-panel {
-    height: 600px;
-    text-align: center;
     padding: 0;
-    color: white;
 
     .vertical-center {
         width: 100%;
@@ -1210,6 +1217,10 @@ ul, ol {
     .svg-triangle {
         display: none;
     }
+}
+
+svg {
+    position: absolute;
 }
 
 /* Footer */
@@ -1522,62 +1533,86 @@ ul, ol {
 
 /* Home Page */
 
-.home-header--image {
-    background: url('http://placehold.it/1920x600') no-repeat center center / cover;
-    height: 600px;
-    padding: 0;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
-    -webkit-clip-path: url("#header-clip"); 
-    clip-path: url("#header-clip");
-    position: relative;
-    z-index: 1;
-
-    @media (max-width: 50em) {
-        height: 400px;
-    }
-}
-
-.home-header--content {
-    position: relative;
-    height: 100%;
-    padding: 0;
+.home-header--container {
     
-    .home-header--tagline {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background: rgba(35,91,148,0.5);
-        padding: 0 30px;
-        width: 650px;
-        z-index: 2;
-        
-        h2 {
-            color: #fff;
-            font-size: 3rem;
-            text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+    @media (max-width: 50em) {
+        background: #11314f;
+    }
+    
+    .home-header--image {
+        background: url('http://placehold.it/1920x600') no-repeat center center / cover;
+        height: 600px;
+        padding: 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 69% 100%, 0 85%);
+        -webkit-clip-path: url("#header-clip"); 
+        clip-path: url("#header-clip");
+        position: relative;
+        z-index: 1;
+
+        @media (max-width: 50em) {
+            height: 300px;
         }
     }
 
-    .home-header--cta {
-        position: absolute;
-        bottom: -150px;
-        right: 0;
-        background: #41b4ad;
-        padding: 0 30px;
-        color: #fff;
-        width: 33%;
-        height: 400px;
-        z-index: 0;
-        
-        div {
+    .home-header--content {
+        position: relative;
+        height: 100%;
+        padding: 0;
+
+        .home-header--tagline {
             position: absolute;
             bottom: 0;
             left: 0;
+            background: rgba(35,91,148,0.5);
             padding: 0 30px;
-            
-            a {
-                color: #0f514d;
+            width: 650px;
+            z-index: 2;
+
+            h2 {
+                color: #fff;
+                font-size: 3rem;
+                text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+            }
+
+            @media (max-width: 50em) {
+                width: 100%;
+                position: inherit;
+                background: none;
+                text-align: center;
+                
+                h2 {
+                    font-size: 2rem;
+                    text-shadow: none;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .home-header--cta {
+            position: absolute;
+            bottom: -150px;
+            right: 0;
+            background: #41b4ad;
+            padding: 0 30px;
+            color: #fff;
+            width: 33%;
+            height: 400px;
+            z-index: 0;
+
+            div {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 0 30px;
+
+                a {
+                    color: #0f514d;
+                }
+            }
+
+            @media (max-width: 50em) {
+                display: none;
             }
         }
     }
@@ -1589,7 +1624,11 @@ ul, ol {
 }
 
 .home-icon--container {
-    padding-top: 45px;
+    padding-top: 90px;
+    
+    @media (max-width: 50em) {
+        padding-top: 0;
+    }
 
     .icon-container {
         padding: 0 15px 30px 15px !important;
@@ -1621,6 +1660,11 @@ ul, ol {
     clip-path: url("#academics-clip");
     display: table;
     width: 100%;
+    
+    @media (max-width: 50em) {
+        height: auto;
+        padding: 30px 15px;
+    }
 }
 
 .academics-section--content {
@@ -1712,6 +1756,14 @@ ul, ol {
     -webkit-clip-path: url("#cta-clip"); 
     clip-path: url("#cta-clip");
     
+    @media (max-width: 50em) {
+        padding: 120px 0 0 0;
+        
+        .container-1080 {
+            margin-bottom: 0;
+        }
+    }
+    
     h2 {
         font-size: 2.5rem;
         text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
@@ -1749,6 +1801,10 @@ ul, ol {
 
         h2, p {
             margin-top: 0;
+        }
+        
+        h2 {
+            text-align: center;
         }
 
     }
@@ -1792,6 +1848,12 @@ ul, ol {
 
 .vertical-align--middle {
     vertical-align: middle;
+}
+
+.hide-tablet {
+    @media (max-width: 50em) {
+        display: none;
+    }
 }
 
 /* Font Stacks */
